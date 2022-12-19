@@ -29,7 +29,8 @@ public class evrenselkod
                 Console.WriteLine("Çıkarma işleminin sonucu : {0}", sonuc);
                 break;
             case '*':
-                
+                sonuc = sayi1 * sayi2;
+                Console.WriteLine("Çarpma işleminin sonucu : {0}", sonuc);
                 break;
             case '/':
                 
