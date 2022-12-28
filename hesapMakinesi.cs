@@ -32,6 +32,8 @@ public class evrenselkod
                 
                 break;
             case '/':
+                sonuc = sayi1 / sayi2;
+                Console.WriteLine("Bölme işleminin sonucu : {0}", sonuc);
                 
                 break;
             default:
